@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="definitions" name="definitions" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="decisions" name="decisions">
+    <decisionTable id="decisionTable">
+      <input id="type">
+        <inputExpression id="InputExpression1406408193">
+          <text>type</text>
+        </inputExpression>
+      </input>
+      <output id="name" name="name"/>
+      <rule id="excelRow2">
+        <inputEntry id="A2">
+          <text>"green"</text>
+        </inputEntry>
+        <outputEntry id="B2">
+          <text>"idlahcen"</text>
+        </outputEntry>
+      </rule>
+      <rule id="excelRow3">
+        <inputEntry id="A3">
+          <text>"pink"</text>
+        </inputEntry>
+        <outputEntry id="B3">
+          <text>"tarek"</text>
+        </outputEntry>
+      </rule>
+      <rule id="excelRow4">
+        <inputEntry id="A4">
+          <text>"cyan"</text>
+        </inputEntry>
+        <outputEntry id="B4">
+          <text>"hatim"</text>
+        </outputEntry>
+      </rule>
+      <rule id="excelRow5">
+        <inputEntry id="A5">
+          <text>"blue"</text>
+        </inputEntry>
+        <outputEntry id="B5">
+          <text>"hadik"</text>
+        </outputEntry>
+      </rule>
+      <rule id="excelRow6">
+        <inputEntry id="A6">
+          <text>"black"</text>
+        </inputEntry>
+        <outputEntry id="B6">
+          <text>"demo"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

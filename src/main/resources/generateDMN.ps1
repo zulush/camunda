@@ -1,0 +1,1 @@
+﻿"<test>This will be written to the text file</test>" | Out-File -FilePath C:\Users\szoui\OneDrive\Desktop\security-buy\src\main\resources\sample.xml

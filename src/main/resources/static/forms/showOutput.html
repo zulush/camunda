@@ -1,0 +1,18 @@
+<form name="ShowOutput" role="form">
+
+    <legend>The course is assigned to {{name}} !</legend>
+
+    <script cam-script type="text/form-script">
+    camForm.on('form-loaded', function(){
+        camForm.variableManager.fetchVariable('name');
+        console.log("variable retrieved")
+    })
+
+    camForm.on('variables-fetched', function(){
+        $scope.name = camForm.variableManager.variableValue('name');
+        console.log($scope.name);
+        console.log("variable fetched");
+    });
+
+  </script>
+</form>

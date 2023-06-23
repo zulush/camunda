@@ -1,0 +1,34 @@
+<form name="securityRequestForm" role="form">
+
+   Security Symbol :
+    <input class="form-controler" cam-variable-name="symbol" cam-variable-type="String"/>
+    Requested Quantity :
+    <input class="form-controler" cam-variable-name="requestedQuantity" cam-variable-type="Integer"/>
+
+    <!--<input type="number" class="form-controler" name="symbol" id="symbol"
+    ng-model="symbol">
+
+    <script cam-script type="text/form-script">
+
+        var variableManager = camForm.variableManager;
+
+        camForm.on('form-loaded', function(){
+            variableManager.fetchVariable('symbol');
+            console.log("variable retrieved")
+        });
+
+        camForm.on('variables-fetched', function(){
+            $scope.myVar = variableManager.variableValue('symbol')
+            console.log($scope)
+            console.log("variable fetched")
+        });
+
+        camForm.on('submit', function(evt){
+            // set  values from back to camunda variables
+            variableManager.variableValue('symbol', $scope.myVar)
+
+            console.log("variable submitted")
+        });
+
+    </script>-->
+</form>

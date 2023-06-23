@@ -1,0 +1,24 @@
+camunda.bpm:
+  default-serialization-format: application/json
+  admin-user:
+    id: demo
+    password: demo
+
+
+excel-config:
+  fileLocation: C:\\Users\\szoui\\OneDrive\\Desktop\\security-buy\\src\\main\\resources\\nasdaq_screener_1680685717106.xlsx
+  sheet: 0
+  header: 0
+  businessRuleCol:
+    symbol: 0
+    name: 1
+    lastSale: 2
+    netChange: 3
+    change: 4
+    marketCap: 5
+    country: 6
+    ipoYear: 7
+    volumeSector: 8
+    sector: 9
+    industry: 10
+    quantity: 11
